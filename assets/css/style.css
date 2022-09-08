@@ -39,10 +39,15 @@ body {
 
 h2 {
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 img {
     width: 100%;   
+}
+
+.margin-top {
+    margin-top: 3rem;
 }
 
 /* #endregion utility */
@@ -114,6 +119,7 @@ a:hover {
 
 /* #region main */
 
+
 .container {
     width: 80%;
     margin: 2rem auto;
@@ -132,7 +138,7 @@ a:hover {
     font-size: 2rem;
     padding: 1rem;
     right: 1rem;
-    top: 3rem;
+    top: 1rem;
     visibility: hidden;
     color: white;
 }
@@ -188,6 +194,10 @@ a:hover {
 }
 
 .card {
-    margin-top: 3rem;
+    margin-top: 0.5rem;
 }
 /* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
