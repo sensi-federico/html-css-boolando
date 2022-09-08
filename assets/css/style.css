@@ -110,10 +110,16 @@ a {
     color: white;
 }
 
-a:hover {
+.links-top:hover {
     font-size: larger;
     font-weight: 900;
 } 
+
+.clearfix {
+    clear: both;
+    content: "";
+    display: table;
+}
 
 /* #endregion header */
 
@@ -172,12 +178,13 @@ a:hover {
 }
 
 .price {
-    color: var(--bg_important);
+    color: var(--details);
     font-weight: 800;
 }
 
 .price_del {
     text-decoration: line-through;
+    opacity: 0.6;
 }
 
 .img_1 {
@@ -199,5 +206,46 @@ a:hover {
 /* #endregion main */
 
 /* #region footer */
+
+footer {
+    background-color: var(--dark);
+    color: white;
+}
+
+.credit {
+    width: 80%;
+    margin:auto;
+    color: var(--bg_primary);
+}
+
+.legal_info {
+    float: left;
+    padding: 2rem 0;
+}
+
+.social {
+    float: right;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.social_icons .first {
+    padding-left: 0.6rem;
+}
+
+.social_icons {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    text-align: center;
+    color: var(--bg_primary);
+    opacity: 0.5;
+    padding-bottom: 1rem;
+
 
 /* #endregion footer */
